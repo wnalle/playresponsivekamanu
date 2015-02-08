@@ -1,4 +1,4 @@
-name := """clean-play-java"""
+name := """ics-play-java"""
 
 version := "1.0-SNAPSHOT"
 
