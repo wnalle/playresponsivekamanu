@@ -2,7 +2,8 @@ package controllers;
 
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.index;
+import views.html.Index;
+import views.html.Page1;
 
 /**
  * Provides controllers for this application.
@@ -10,11 +11,20 @@ import views.html.index;
 public class Application extends Controller {
 
   /**
-   * Controller for the home page.
-   * @return Returns the rendered index template.
+   * Returns the home page.
+   * @return The resulting home page.
    */
   public static Result index() {
-    return ok(index.render("Your new application is ready."));
+    return ok(Index.render("Welcome to the home page."));
+  }
+
+  /**
+   * Returns page1, a simple example of a second page to illustrate navigation.
+   * @return The Page1.
+   */
+  public static Result page1() {
+    return ok(Page1.render("Welcome to Page1."));
+
   }
 
 }

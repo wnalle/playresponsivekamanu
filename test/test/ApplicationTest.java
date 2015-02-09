@@ -24,13 +24,13 @@ public class ApplicationTest {
   }
 
   /**
-   * Tests that the index template renders correctly.
+   * Tests that the Index template renders correctly.
    */
   @Test
   public void renderTemplate() {
-    Content html = views.html.index.render("Your new application is ready.");
+    Content html = views.html.Index.render("Welcome to the home page.");
     assertThat(contentType(html)).isEqualTo("text/html");
-    assertThat(contentAsString(html)).contains("Your new application is ready.");
+    assertThat(contentAsString(html)).contains("home page");
   }
 
 
