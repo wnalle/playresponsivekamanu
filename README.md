@@ -1,5 +1,7 @@
 # ics-play-bootstrap
 
+![](ics-play-bootstrap-home.png)
+
 ## Overview
 
 This is a revised version of the Activator 'play-java' template system which:
