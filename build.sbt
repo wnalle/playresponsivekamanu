@@ -1,4 +1,4 @@
-name := """ics-play-java"""
+name := """ics-play-bootstrap"""
 
 version := "1.0-SNAPSHOT"
 
