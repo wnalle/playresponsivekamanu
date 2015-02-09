@@ -1,6 +1,6 @@
 # ics-play-bootstrap
 
-![](ics-play-bootstrap-home.png)
+<img src="ics-play-bootstrap-home.png" width="500px"/>
 
 ## Overview
 
