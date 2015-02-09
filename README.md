@@ -12,7 +12,7 @@ This is a revised version of the Activator 'play-java' template system which:
 
 To use it, first create an empty GitHub repo and clone to your desktop.
 
-Next, cd into your new repo and set this repo as the upstream master:
+Next, cd into your new repo and set ics-play-bootstrap as the upstream master:
 
     git remote add upstream https://github.com/ics613s15/ics-play-bootstrap.git
 

@@ -17,7 +17,7 @@ import static play.test.Helpers.testServer;
 public class IntegrationTest {
 
   /**
-   * Check if the welcome page is being shown.
+   * Check to see that both the index and page1 pages can be retrieved.
    */
   @Test
   public void test() {
