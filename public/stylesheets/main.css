@@ -1,3 +1,61 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  padding-top: 81px;
+}
+
+.navbar-brand {
+  padding:0px;
+
+}
+
+.navbar-inverse {
+  padding-bottom:31px;
+  background-image:url("../images/bg-carbon.jpg");
+
+}
+
+.navbar-nav {
+  font-family: "Lucida Grande", "Lucida Sans","Verdana, Arial", "sans-serif";
+  font-weight:bold;
+  text-align:center;
+  font-size:1.2em;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color:#E5EDDC;
+  padding-left:40px;
+}
+
+.canoes{
+  background-image:url("../images/pueo-canoes-front.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.tag_line {
+  background-color:black;
+  color:#666;
+  font-weight:600;
+  text-align:center;
+  font-family: Georgia,'Times New Roman', Times;
+  font-size:2.5em;
+  padding-top:35px; padding-bottom:35px;
+}
+
+
+.pueo{
+  background-image:url("../images/cover-pueo-page.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.pueo_tag_line {
+  background-color:black;
+  color:#666;
+  font-weight:600;
+  text-align:center;
+  font-family: Georgia,'Times New Roman', Times;
+  font-size:2.5em;
+  padding-top:35px; padding-bottom:35px;
 }
